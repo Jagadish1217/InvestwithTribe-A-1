@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ShowDate } from "./date";
+import { ShowDate } from "./Holidays";
 import "../App.css"; 
 export function Home() {
     const [data, setData] = useState([[], [], []]);
