@@ -1,0 +1,68 @@
+.box {
+  width: 45%;
+  margin: auto;
+  height: 78.5vh;
+  overflow: auto;
+  margin-top: 50px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 216, 216);
+  border-radius: 10px;
+}
+
+.table {
+  width: 93%;
+  padding: 3%;
+  height: 20px;
+  padding-bottom: 15px;
+  color: white;
+  padding-top: 15px;
+  border: 1px solid rgb(182, 182, 182);
+  background-color: rgb(80, 41, 26);
+}
+
+.table:hover {
+  background-color: rgb(241, 186, 149);
+  color: black;
+}
+.table div {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  text-align: justify;
+}
+.table div:nth-child(2) {
+  text-align: right;
+}
+#country-s {
+  height: 30px;
+  border: 2px solid black;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 30%;
+}
+.navbar {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.navbar #country-s:nth-child(2) {
+  width: 30%;
+}
+#cal {
+  width: 60%;
+  margin: auto;
+}
+
+#cal input{
+  width:20%;
+  border: 2px solid black;
+  font-weight: bold;
+  margin-left: 20px;
+}
